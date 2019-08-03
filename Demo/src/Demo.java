@@ -12,8 +12,9 @@ public class Demo {
 		  
 		  		X driver = new X();*/
 		//invoke .exe file first
-		System.setProperty("webdriver.chrome.driver", "/C:\\Users\\Rin\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/C:\\Users\\Rin\\Downloads\\seleDemo\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		
 		driver.get("http://google.com");
 		System.out.println(driver.getTitle());
 	}
