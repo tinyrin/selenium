@@ -15,8 +15,13 @@ public class Demo {
 		System.setProperty("webdriver.chrome.driver", "/C:\\Users\\Rin\\Downloads\\seleDemo\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("http://google.com");
-		System.out.println(driver.getTitle());
+		driver.get("http://google.com"); //Hit url on the browser
+		System.out.println(driver.getTitle()); //Validate if your page title is correct
+		
+		//Validate if you are landed on correct url
+		System.out.println(driver.getCurrentUrl());
+		
+		System.out.println(driver.getPageSource());
 	}
 
 }
