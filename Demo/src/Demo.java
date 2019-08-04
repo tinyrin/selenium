@@ -31,7 +31,7 @@ public class Demo {
 		//How to close the "Current" browser
 		driver.close();
 		//How to close the "All" browsers opened by selenium script
-		driver.quit();
+		//driver.quit();
 	}
 
 }
