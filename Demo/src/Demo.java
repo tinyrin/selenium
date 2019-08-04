@@ -26,6 +26,10 @@ public class Demo {
 		driver.get("http://yahoo.com");
 		//How to go back to previous page
 		driver.navigate().back();
+		//How to go forward page
+		driver.navigate().forward();
+		//How to close the browser
+		driver.close();
 	}
 
 }
