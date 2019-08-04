@@ -26,10 +26,12 @@ public class Demo {
 		driver.get("http://yahoo.com");
 		//How to go back to previous page
 		driver.navigate().back();
-		//How to go forward page
+		//How to go forward page (Selenium bugs, waiting for fixing it)
 		driver.navigate().forward();
-		//How to close the browser
+		//How to close the "Current" browser
 		driver.close();
+		//How to close the "All" browsers opened by selenium script
+		driver.quit();
 	}
 
 }
