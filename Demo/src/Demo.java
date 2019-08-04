@@ -21,7 +21,11 @@ public class Demo {
 		//Validate if you are landed on correct url
 		System.out.println(driver.getCurrentUrl());
 		
-		System.out.println(driver.getPageSource());
+		//System.out.println(driver.getPageSource()); //Print page source
+		
+		driver.get("http://yahoo.com");
+		//How to go back to previous page
+		driver.navigate().back();
 	}
 
 }
