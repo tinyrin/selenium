@@ -19,7 +19,7 @@ public class Demo {
 		System.out.println(driver.getTitle()); //Validate if your page title is correct
 		
 		//Validate if you are landed on correct url
-		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getCurrentUrl()); //"getCurrentUrl" To open the browser with new window
 		
 		//System.out.println(driver.getPageSource()); //Print page source
 		
