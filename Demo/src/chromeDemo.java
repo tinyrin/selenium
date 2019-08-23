@@ -14,6 +14,9 @@ public class chromeDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://facebook.com"); //URL in the browser
 		driver.findElement(By.id("email")).sendKeys("This is my first code");
+		driver.findElement(By.className("pass")).sendKeys("123456");
+		driver.findElement(By.linkText("Forgot account?")).click();
+		
 	}
 
 }
