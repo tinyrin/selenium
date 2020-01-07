@@ -14,13 +14,15 @@ public class UpdatedDropdown {
 		driver.findElement(By.id("hrefIncAdt")).click(); //2 adults
 			Thread.sleep(2000L);
 		
-		int i = 1;
+		/*int i = 1;
 		while(i < 5) {
 			driver.findElement(By.id("hrefIncAdt")).click();
 			i++;
-		}
+		} */
 		
-		driver.findElement(By.id("btncloseepaxoption")).click();
+		for (int i = 1; i < 5; i++) {
+			driver.findElement(By.id("btncloseepaxoption")).click();
+		
 	}
 
 }
