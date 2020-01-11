@@ -8,7 +8,9 @@ public class base {
 		// TODO Auto-generated method stub
 
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "RinEmulator");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "RinEmulator"); //Opening emulator RinEmulator
+		cap.setCapability(MobileCapabilityType.APP, "RinEmulator"); //Sending App Information
+		
 	}
 
 }
