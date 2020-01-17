@@ -16,7 +16,7 @@ public class base {
 
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "RinEmulator");
-		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
+		//cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 		AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap); // connect to server
 		return driver;
